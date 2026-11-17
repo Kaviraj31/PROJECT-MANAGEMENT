@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000/tasks";
+const API = "https://projectmanagement-backend-7832.onrender.com/tasks";
 
 const STATUSES = ["Pending", "Ongoing", "Completed"];
 
